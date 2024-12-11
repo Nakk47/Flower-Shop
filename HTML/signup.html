@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="left-container">
+        <div id="logo">
+
+            <a href="home.html">
+                <img src="../Assets/Blossom Logo.svg" alt="" />
+            </a>
+        </div>
+
+
+        <div id="signup-section">
+            <div id="header-section">
+                <h1>Create Your Account</h1>
+                <p>It's FREE! Takes less than a minute.</p>
+            </div>
+
+            <div id="form-section">
+                <form action="#">
+
+                    <!-- email -->
+                    <div class="username-section">
+                        <label for="username-input">Username</label>
+
+                        <div class="username-container">
+                            <input type="text" name="username" id="username-input" placeholder="Enter your username"/>
+                            <img class="icon" id="email-icon" src="../Assets/Signup/Email.svg" alt="email-icon">
+                        </div>
+
+                    </div>
+                    <!-- password -->
+                    <div class="password-section">
+                        <label for="password">Password</label>
+                        <div class="password-container">
+                            <input type="password" name="password" id="password-input" placeholder="Enter your password"/>
+                            <img class="icon" id="eye-closed" src="../Assets/Signup/eye-closed.svg" alt="eye-closed-icon">
+                        </div>
+                    </div>
+
+                    <div class="confirm-password-section">
+                        <label for="password">Confirm Your Password</label>
+                        <div class="confirm-password-container">
+                            <input type="password" name="password" id="confirm-password-input" placeholder="Enter your password"/>
+                            <img class="icon" id="eye-closed" src="../Assets/Signup/eye-closed.svg" alt="eye-closed-icon">
+                        </div>
+                    </div>
+                    
+                    <!-- checkbox -->
+                    <div id="option-container">
+                        <div id="checkbox-container">
+                            <input type="checkbox" name="remember" class="remember-me" />
+                            <label for="remember-me">Remember me</label>
+                        </div>
+                    </div>
+
+                    <!-- submit -->
+                    <input type="submit" value="Sing Up" id="signup" />
+
+                </form>
+
+                <div id="footer">
+                    <p>Already have an account?</p>
+                    <a href="login.html">Log in</a>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <div id="right-container">
+    <div id="img-container">
+        <img id="login-img" src="../Assets/Signup/Sign up-amico.svg" alt="login-img-svg" />
+    </div>
+    </div>
+</body>
+</html>

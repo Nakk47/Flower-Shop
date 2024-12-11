@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="left-container">
+        <div id="logo">
+
+            <a href="home.html">
+                <img src="../Assets/Blossom Logo.svg" alt="" />
+            </a>
+        </div>
+
+
+        <div id="login-section">
+            <div id="header-section">
+                <p>Welcome back!</p>
+                <h1>Log in to your account</h1>
+            </div>
+
+            <div id="form-section">
+                <form action="#">
+
+                    <!-- email -->
+                    <div class="email-section">
+                        <label for="email-or-phone-input">Email or Phone</label>
+
+                        <div class="email-container">
+                            <input type="text" name="email-or-phone" id="email-or-phone-input" placeholder="Enter your email or phone number"/>
+                            <img class="icon" id="email-icon" src="../Assets/Login/Email.svg" alt="email-icon">
+                        </div>
+
+                    </div>
+                    <!-- password -->
+                    <div class="password-section">
+                        <label for="password">Password</label>
+                        <div class="password-container">
+                            <input type="password" name="password" id="password-input" placeholder="Enter your password"/>
+                            <img class="icon" id="eye-icon" src="../Assets/Login/eye-closed.svg" alt="eye-closed-icon">
+                        </div>
+                    </div>
+                    
+                    <!-- checkbox -->
+                    <div id="option-container">
+                        <div id="checkbox-container">
+                            <input type="checkbox" name="remember" class="remember-me" />
+                            <label for="remember-me">Remember me</label>
+                        </div>
+                        <a href="#" id="forgot">Forgot password?</a>
+                    </div>
+
+                    <!-- submit -->
+                    <input type="submit" value="Login" id="login" />
+
+                </form>
+                <div id="footer">
+                    <p>Don't have an account?</p>
+                    <a href="signup.html">Sign up</a>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div id="right-container">
+    <div id="img-container">
+        <img id="login-img" src="../Assets/Login/Login-amico.svg" alt="login-img-svg" />
+    </div>
+    </div>
+
+    <script src="../javascript/login.js"></script>
+</body>
+</html>
