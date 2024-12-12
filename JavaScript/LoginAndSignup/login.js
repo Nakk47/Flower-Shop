@@ -6,11 +6,11 @@ eyeicon.onclick = function()
     if(passowrd.type == "password")
     {
         passowrd.type = "Text";
-        eyeicon.src = "../Assets/Login/eye-open.svg";
+        eyeicon.src = "../../Assets/Login/eye-open.svg";
     }
     else
     {
         passowrd.type = "password";
-        eyeicon.src = "../Assets/Login/eye-closed.svg";
+        eyeicon.src = "../../Assets/Login/eye-closed.svg";
     }
 }
