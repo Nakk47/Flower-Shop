@@ -1,3 +1,14 @@
+/* color pallete */
+:root
+{
+    --darkgreen-color: #355F2E;
+    --mintedgreen-color: #1FB57A;
+    --hover-color: #99CDA9;
+    --background-color: #FBFEFF;
+}
+
+
+
 *
 {
     padding: 0;
@@ -10,6 +21,7 @@ body
 {
     height: 200vh;
     width: 100%;
+    background-color: var(--background-color);
 }
 
 
@@ -21,9 +33,18 @@ body
 a
 {
     text-decoration: none;
-    color: #252525;
 }
 
+nav a
+{
+    color: #252525;
+    padding: 0.5em;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
 
 #header
 {
@@ -31,7 +52,7 @@ a
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: #FBFEFF;
+    background-color: var(--background-color);
     height: 15vh;
 }
 
@@ -43,22 +64,28 @@ a
 }
 
 
-#mid-navigation-bar
+nav ul
 {
+    list-style: none;
     align-self: center;
     justify-self: center;
     display: flex;
-    gap: 5em;
+    gap: 4em;
     background-color: #D1E9D2;
-    padding: 1em 3em 1em 3em;
-    border-radius: 30px;
-    border: 1px solid #355F2E;
-    font-size: 17.5px;
+    padding: 1em 2em 1em 2em;
+    border-radius: 33px;
+    border: 1px solid var(--darkgreen-color);
+    font-size: 16px;
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
     box-shadow: 0 2px 5px lightgrey;
-} 
+}
+
+nav li
+{
+    display: flex;
+}
 
 #right-navigation
 {
@@ -72,7 +99,7 @@ a
 #login-button
 {
     padding: 0.25em 2em 0.25em 2em ;
-    border: 4px solid #1FB57A;
+    border: 4px solid var(--mintedgreen-color);
     border-radius: 10px;
     font-family: "Roboto", serif;
     font-weight: bold;
@@ -129,7 +156,7 @@ a
 
 .green-font
 {
-    color:#1FB57A ;
+    color: var(--mintedgreen-color);
 }
 
 #section-1-header
@@ -145,7 +172,7 @@ a
     width: 60%;
     font-family: "Playfair Display", serif;
     font-size: 18px;
-    height: 20%;
+    height: 25%;
     line-height: 2;
 }
 
@@ -185,14 +212,14 @@ a
 
 #more-detail
 {
-    border: 3px solid #1FB57A;
-    color: #167F55;
+    border: 3px solid var(--mintedgreen-color);
+    color: var(--darkgreen-color);
 }
 
 #shop-now
 {
-    border: 3px solid #1FB57A;
-    background-color: #1FB57A;
+    border: 3px solid var(--mintedgreen-color);
+    background-color: var(--mintedgreen-color);
     color: white;
 }
 
@@ -209,13 +236,14 @@ a
     padding-top: 5em;
 }
 
+
 .circle
 {
     background-color: #FFF1CF;
     width: 32.5vw;
     height: 32.5vw;
     border-radius: 50%;
-    border: 5px solid #355F2E;
+    border: 5px solid var(--darkgreen-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,4 +281,57 @@ a
 #product-container
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    justify-self: center;
+    width: 70%;
+    height: 50%;
 }
+
+.product
+{
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    border: 3px solid lightgray;
+}
+
+.product-header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-header img
+{
+    width: 7.5%;
+}
+
+.product-label
+{
+    font-family: "Roboto", serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.rating-stars img
+{
+    width: 10%;
+}
+
+
+.main-product-img
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-product-img img
+{
+    width: 70%;
+}
+
