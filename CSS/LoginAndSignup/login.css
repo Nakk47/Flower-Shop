@@ -22,6 +22,16 @@ body
     flex-direction: column;
 }
 
+#logo
+{
+    padding: 1em;
+}
+
+.logo-img
+{
+    width: 250px;
+}
+
 #login-section
 {
     display: flex;
