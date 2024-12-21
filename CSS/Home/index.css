@@ -93,7 +93,7 @@ nav li
     display: flex;
     font-size: 20px;
     gap: 2em;
-    padding-right: 10em;
+    padding-right: 5em;
 }
 
 #login-button
@@ -121,7 +121,7 @@ nav li
 {
     display: flex;
     align-items: center;
-    margin-left: 5em;
+    padding-left: 5em;
     width: 150px;
 }
 
