@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
     <div id="header">
         <a id="logo-container" href="../Home/index.html">
             <img class="logo" src="../../Assets/BLOSSOM LOGO.svg" alt="">
@@ -39,7 +40,111 @@
             <a href="../LoginAndSignup/login.html" id="login-button">Login</a>
         </div>
     </div>
-</body>
-</html>
+
+<!-- Main -->
+
+    <div id="form-container">
+        <h1>Contact Us</h1>
+        <form action="#">
+            <div class="name-container">
+                <label for="username">Name</label>
+                <input type="text" name="username">
+            </div>
+
+            <div class="phone-container">
+                <label for="phone-number">Phone Number</label>
+                <input type="number" name="phone-number">
+            </div>
+
+            <div class="email-container">
+                <label for="email">Email Address (Optional)</label>
+                <input type="email" name="email">
+            </div>
+
+            <div class="subject-container">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject">
+            </div>
+
+            <div class="messege">
+                <label for="message">Your message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <a href="#">
+                <input type="submit" value="Send Message">
+            </a>
+        </form>
+    </div>
+
+    <div id="call-container">
+        <h2>Give us a call.</h2>
+        <p>Get quick information with just a call.</p>
+        <p>+885-12-345-678</p>
+    </div>
+
+    <div id="feedback-container">
+        <h2>Leave us some feedback.</h2>
+        <p>Get quick information with just a call.</p>
+        <label for="message">Your feedback</label>
+        <textarea name="message" id="message"></textarea>
+        <a href="#">
+            <input type="submit" value="Send Message">
+        </a>
+    </div>
+
+    <!-- Bottom -->
+    <div id="bottom-container">
+        <div id="left-section">
+            <div id="white-logo">
+                <img src="" alt="white-logo">
+            </div>
+            <p>We are your online flowers destination. We offer a wide range of flowers from our heart to yours!</p>
+            
+            <div class="contact-icon" id="phone-icon">
+                <img src="" alt="phone-icon">
+            </div>
+            <p>+885 123-456-789</p>
+            
+            <div class="contact-icon" id="mail-icon">
+                <img src="" alt="mail-icon">
+            </div>
+            <a href="#" id="email">blossomtheflowershop@service.com</a>
+
+            <div class="contact-icon" id="location-icon">
+                <img src="" alt="">
+            </div>
+            <a href="#" id="location">Location</a>
+
+        </div>
+
+        <div id="mid-section">
+            <h2 id="media-header" >Social Media</h2>
+            <div id="social-media-container">
+                <div class="social-media" id="facebook">
+                    <img src="" alt="facebook-icon">
+                </div>
+
+                <div class="social-media" id="telegram">
+                    <img src="" alt="telegram-icon">
+                </div>
+
+                <div class="social-media" id="instagram">
+                    <img src="" alt="instagram-icon">
+                </div>
+            </div>
+        </div>
+        
+        <div id="lower-section">
+            <div id="term-privacy">
+                <p>Terms & Condition</p>
+                <p>Privacy Policy</p>
+            </div>
+
+            <div id="copyright">
+                <p>&copy; Copytight, All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
