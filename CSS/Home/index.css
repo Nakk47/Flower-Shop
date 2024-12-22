@@ -17,7 +17,7 @@
 
 body
 {
-    height: 200vh;
+    height: 300vh;
     width: 100%;
     background-color: var(--background-color);
 }
@@ -67,7 +67,7 @@ nav ul
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
-    height: 50px;
+    height: 7vh;
 }
 
 nav li
@@ -93,7 +93,7 @@ nav li
     display: flex;
     font-size: 20px;
     gap: 2em;
-    padding-right: 10em;
+    padding-right: 15vh;
 }
 
 #login-button
@@ -121,7 +121,7 @@ nav li
 {
     display: flex;
     align-items: center;
-    margin-left: 5em;
+    margin-left: 15vh;
     width: 150px;
 }
 
@@ -289,10 +289,10 @@ nav li
     gap: 5em;
 }
 
-.section-2-header
+.section-header
 {
     margin-top: 0.5em;
-    font-size: 84px;
+    font-size: 64px;
 }
 
 #product-container
