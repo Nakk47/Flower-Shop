@@ -53,6 +53,7 @@ a
     background-color: var(--background-color);
     position: fixed;
     border-bottom: 1.5px solid lightgray;
+    height: 68px;
 }
 
 
