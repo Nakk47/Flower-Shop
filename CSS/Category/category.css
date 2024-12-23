@@ -17,7 +17,6 @@
 
 body
 {
-    height: 200vh;
     width: 100%;
     background-color: var(--background-color);
 }
@@ -68,7 +67,7 @@ nav ul
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
-    height: 7vh;
+    height: 68px;
 }
 
 nav li
@@ -133,56 +132,81 @@ nav li
 }
 
 
-#section-1-header
-{
-    padding: 70px;
-    padding-left: 115px;
-}
-
-
 
 /* Section 1 */
 
 .type-flowers
 {
     display: grid;
+    padding-top: 136px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    padding-left: 100px;
-    padding-right: 100px;
-    gap: 3rem;
-    
+    /* grid-template-rows: repeat(6, 1fr); */
+    padding-left: 10em;
+    padding-right: 10em;
+    gap: 1em;
+    width: 100%;
+    height: 10%;
+
+}
+
+#section-1
+{
+    display: flex;
+    align-items: center;
 }
 
 #type-image-1
 {
-    
-    width: 100px;
-    
+    grid-column: 1 span;
+    grid-row: 1 span;
+
 }
+
 #type-image-2
 {
-    
-    width: 100px;
-    
+    grid-column: 2 ;
+    grid-row: 1/2 span;
 }
 
 #type-image-3
 {
-    width: 100px;
+    grid-column: 1;
+    grid-row: 2;
 }
+
+#type-image-2  img
+{
+    height: 100%;
+}
+
 
 #type-image-4
-{
-    width: 100px;
+{   
+    grid-column: 1 span;
+    grid-row: 1 span;
 }
-
 #type-image-5
 {
-    width: 100px;
+    grid-column: 1 span;
+    
 }
 
+#type-image-5  img
+{
+    height: 100%;
+}
 #type-image-6
 {
-    width: 100px;
+    grid-column: 2 span;
+    
+}
+
+.category-img
+{
+    width: 100%;
+}
+
+.category-img img
+{
+    width: 100%;
 }
