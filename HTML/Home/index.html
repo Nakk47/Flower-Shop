@@ -12,8 +12,9 @@
     
     <!-- Playfair Display Font -->
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -82,7 +83,7 @@
     <!-- Section 2 -->
     <div id="section-2">
 
-        <h1 class="section-2-header"><span class="green-font">Best Seller</span> Flower</h1>
+        <h1 class="section-header"><span class="green-font">Best Seller</span> Flower</h1>
 
         <div id="product-container">
             
@@ -97,6 +98,8 @@
                     <img src="../../Assets/Homepage/Flower/Jasmine.png" alt="jasmine-flower">
                 </div>
                 
+                <div class="line-card"></div>
+
                 <div class="product-label">
                     <p>Jasmine</p>
                 </div>
@@ -128,6 +131,8 @@
                     <img src="../../Assets/Homepage/Flower/Crocus.png" alt="crocus-flower">
                 </div>
 
+                <div class="line-card"></div>
+
                 <div class="label-container">
                     <p class="product-label">Crocus</p>
                 </div>
@@ -152,10 +157,13 @@
                     <p>Flower</p>
                     <img class="product-heart-icon" src="../../Assets/Homepage/heart.svg" alt="heart-icon">
                 </div>
-    
+                
                 <div class="main-product-img">
                     <img src="../../Assets/Homepage/Flower/Rose.png" alt="rose-flower">
                 </div>
+
+                <div class="line-card"></div>
+
                 <div class="label-container">
                     <p class="product-label">Rose</p>
                 </div>
@@ -174,23 +182,22 @@
                 </div>
             </div>
 
-
-
             <!-- Product-4 -->
-            <div class="product" id="product-4">
+            <div class="product" id="product-3">
                 <div class="product-header">
                     <p>Flower</p>
                     <img class="product-heart-icon" src="../../Assets/Homepage/heart.svg" alt="heart-icon">
                 </div>
-    
-                <div class="main-product-img">
-                    <img src="../../Assets/Homepage/Flower/Tulip.png" alt="tulip-flower">
-                </div>
                 
+                <div class="main-product-img">
+                    <img src="../../Assets/Homepage/Flower/Tulip.png" alt="Tulip-flower" id="tulip-flower">
+                </div>
+
+                <div class="line-card"></div>
+
                 <div class="label-container">
                     <p class="product-label">Tulip</p>
                 </div>
-
     
                 <div class="rating-stars">
                     <img class="star" src="../../Assets/Homepage/star.svg" alt="star-icon">
@@ -199,7 +206,7 @@
                     <img class="star" src="../../Assets/Homepage/star.svg" alt="star-icon">
                     <img class="star" src="../../Assets/Homepage/star.svg" alt="star-icon">
                 </div>
-    
+                
                 <div class="product-footer">
                     <p class="cost">5.00$</p>
                     <p class="bottom-label">1 Bunch</p>
@@ -208,7 +215,132 @@
         </div>
     </div>
 
+    <!-- Section-3 -->
+    <div id="section-3">
+        <h1 class="section-header">Most Popular Category</h1>
+        <div id="category-container">
+            <div class="category" id="valentine">
+                <h2 class="service-header">Valentine</h2>
+                <div class="category-img" id="category1">
+                    <img src="../../Assets/Homepage/popular category/valentine.png"alt="valentine-img">
+                </div>
+            </div>
 
+            <div class="category" id="decoration">
+                <h2 class="service-header" id="text-decoration">Decoration</h2>
+                <div class="category-img" id="category2">
+                    <img src="../../Assets/Homepage/popular category/decoration.png" alt="decoration-img">
+                </div>
+            </div>
+
+            <div class="category" id="gift">
+                <h2 class="service-header" id="text-gift">Gift</h2>
+                <div class="category-img" id="category3">
+                    <img src="../../Assets/Homepage/popular category/gift.png" alt="gift-img">
+                </div>
+            </div>
+            
+            <div class="category" id="wedding">
+                <h2 class="service-header">Wedding</h2>
+                <div class="category-img" id="category4">
+                    <img src="../../Assets/Homepage/popular category/wedding.png" alt="wedding-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section-4 -->
+     <div id="section-4">
+        <div id="service container">
+            <h1 class="section-header" id="our-service-header">Our Service</h1>
+            <div id="service-card-container">
+                <div class="service" id="service-1">
+                    <div class="service-img">
+                        <img src="../../Assets/Homepage/Our service/Delivery.svg" alt="delivery-img">
+                    </div>
+                    <p class="service-header1">Express Delivery</p>
+                    <p class="service-description">Fast and reliable flower delivery for every occasion. Beautiful blooms, delivered fresh to your doorstep in no time!</p>
+                    <a href="../Service/service.html" class="sercice-btn">
+                        <p>More</p>
+                    </a>
+                </div>
     
+                <div class="service" id="service-2">
+                    <div class="service-img">
+                        <img src="../../Assets/Homepage/Our service/Wedding Img.svg" alt="wedding-decoration-img">
+                    </div>
+                    <p class="service-header1">Wedding Decoration</p>
+                    <p class="service-description">Stunning arrangements and personalized designs that bring your wedding vision to life.</p>
+                    <a href="../Service/service.html" class="sercice-btn">
+                        <p>More</p>
+                    </a>
+                </div>
+    
+                <div class="service" id="service-3">
+                    <div class="service-img" >
+                        <img src="../../Assets/Homepage/Our service/Garden-Decoration.svg" alt="garden-decoration-img">
+                    </div>
+                    <p class="service-header1">Garden Decoration</p>
+                    <p class="service-description">Fast and reliable flower delivery for every occasion. Beautiful blooms, delivered fresh to your doorstep in no time!</p>
+                    <a href="../Service/service.html" class="sercice-btn">
+                        <p>More</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Bottom -->
+        <div id="bottom-container">
+            <div id="left-section">
+                <img id="white-logo" src="" alt="">
+                <p>We are your online flowers destination. We offer a wide range of flowers from our heart to yours!</p>
+                
+                <div class="contact-icon" id="phone-icon">
+                    <img src="" alt="phone-icon">
+                </div>
+                <p>+885 123-456-789</p>
+                
+                <div class="contact-icon" id="mail-icon">
+                    <img src="" alt="mail-icon">
+                </div>
+                <a href="#" id="email">blossomtheflowershop@service.com</a>
+
+                <div class="contact-icon" id="location-icon">
+                    <img src="" alt="">
+                </div>
+                <a href="#" id="location">Location</a>
+
+            </div>
+
+            <div id="mid-section">
+                <h2 id="media-header" >Social Media</h2>
+                <div id="social-media-container">
+                    <div class="social-media" id="facebook">
+                        <img src="" alt="facebook-icon">
+                    </div>
+
+                    <div class="social-media" id="telegram">
+                        <img src="" alt="telegram-icon">
+                    </div>
+
+                    <div class="social-media" id="instagram">
+                        <img src="" alt="instagram-icon">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="lower-section">
+                <div id="term-privacy">
+                    <p>Terms & Condition</p>
+                    <p>Privacy Policy</p>
+                </div>
+
+                <div id="copyright">
+                    <p>&copy; Copytight, All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+</div>
 </body>
 </html>
