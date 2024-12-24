@@ -42,54 +42,66 @@
     </div>
 
 <!-- Main -->
+    <div id="main-container">
+        <h1 class="main-header">How would you like to contact the Salesforce?</h1>
 
-    <div id="form-container">
-        <h1>Contact Us</h1>
-        <form action="#">
-            <div class="name-container">
-                <label for="username">Name</label>
-                <input type="text" name="username">
+        <div class="form-container">
+            <div id="request-container">
+                <h2 class="form-header" >Request a call</h2>
+                <p>Give us the right information so the right person can get to you.</p>
+                <form action="#" class="request-form">
+                    <div class="name-container">
+                        <label for="username">Name</label>
+                        <input type="text" name="username">
+                    </div>
+        
+                    <div class="phone-container">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="text" name="phone-number">
+                    </div>
+        
+                    <div class="email-container">
+                        <label for="email">Email Address (Optional)</label>
+                        <input type="email" name="email">
+                    </div>
+        
+                    <div class="subject-container">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject">
+                    </div>
+        
+                    <div class="message">
+                        <label for="message">Your message</label>
+                        <textarea name="message" id="message-request"></textarea>
+                    </div>
+
+                    <div class="send-btn">
+                        <input type="submit" value="Send Message">
+                    </div>
+                </form>
             </div>
-
-            <div class="phone-container">
-                <label for="phone-number">Phone Number</label>
-                <input type="number" name="phone-number">
+        
+            <div id="call-container">
+                <h2 class="form-header">Give us a call.</h2>
+                <p>Get quick information with just a call.</p>
+                <div id="phone-call">
+                    <p>+885-12-345-678</p>
+                </div>
             </div>
+        
+            <div id="feedback-container">
+                <h2 class="form-header">Leave us some feedback.</h2>
+                <p>Get quick information with just a call.</p>
+                <form class="feedback-form" action="#">
+                    <label for="message">Your feedback</label>
+                    <textarea name="message" id="message-feedback"></textarea>
 
-            <div class="email-container">
-                <label for="email">Email Address (Optional)</label>
-                <input type="email" name="email">
+                    <div class="send-btn">
+                        <input type="submit" value="Send Feedback" >
+                    </div>
+                </form>
             </div>
-
-            <div class="subject-container">
-                <label for="subject">Subject</label>
-                <input type="text" name="subject">
-            </div>
-
-            <div class="messege">
-                <label for="message">Your message</label>
-                <textarea name="message" id="message"></textarea>
-            </div>
-            <a href="#">
-                <input type="submit" value="Send Message">
-            </a>
-        </form>
-    </div>
-
-    <div id="call-container">
-        <h2>Give us a call.</h2>
-        <p>Get quick information with just a call.</p>
-        <p>+885-12-345-678</p>
-    </div>
-
-    <div id="feedback-container">
-        <h2>Leave us some feedback.</h2>
-        <p>Get quick information with just a call.</p>
-        <label for="message">Your feedback</label>
-        <textarea name="message" id="message"></textarea>
-        <a href="#">
-            <input type="submit" value="Send Message">
-        </a>
+        </div>
     </div>
 
 
@@ -103,27 +115,28 @@
             <div id="text-container">
                 <p>We are your online flowers destination. We offer a wide range of flowers from our heart to yours!</p>
             </div>
-            
-            <div class="contact-container">
-                <div class="contact-icon" id="phone-icon">
-                    <img src="../../Assets/Contact/Phone.svg" alt="phone-icon">
-                </div>
-                <p>+885 123-456-789</p>
-            </div>
-            
-            <div class="contact-container">
-                <div class="contact-icon" id="mail-icon">
-                    <img src="../../Assets/Contact/Email.svg" alt="mail-icon">
-                </div>
-                <a href="#" id="email">blossomtheflowershop@service.com</a>
-            </div>
-
 
             <div class="contact-container">
-                <div class="contact-icon" id="location-icon">
-                    <img src="../../Assets/Contact/Location.svg" alt="">
+                <div class="contact">
+                    <div class="contact-icon" id="phone-icon">
+                        <img src="../../Assets/Contact/Phone.svg" alt="phone-icon">
+                    </div>
+                    <p>+885 123-456-789</p>
                 </div>
-                <a href="#" id="location">Location</a>
+                
+                <div class="contact">
+                    <div class="contact-icon" id="mail-icon">
+                        <img src="../../Assets/Contact/Email.svg" alt="mail-icon">
+                    </div>
+                    <a href="#" id="email">blossomtheflowershop@service.com</a>
+                </div>
+    
+                <div class="contact">
+                    <div class="contact-icon" id="location-icon">
+                        <img src="../../Assets/Contact/Location.svg" alt="">
+                    </div>
+                    <a href="#" id="location">Location</a>
+                </div>
             </div>
 
         </div>
@@ -149,7 +162,7 @@
             </div>
 
             <div id="bottom-nav">
-                <p><a href="../Home/index.html">Home</a>  |  <a href="../Shop/shop.html">Shop</a>  |  <a href="../Category/category.html">Category</a>  |  <a href="../Service/service.html">Service</a>  |  <a href="../About Us/aboutUs.html">About</a>  |  <a href="../Contact/contact.html">Contact</a></p>
+                <p><a href="../Home/index.html">Home</a>  |  <a href="../Shop/shop.html">Shop</a>  |  <a href="../Category/category.html">Category</a>  |  <a href="#">Service</a>  |  <a href="../About Us/aboutUs.html">About</a>  |  <a href="../Contact/contact.html">Contact</a></p>
             </div>
         </div>
 
