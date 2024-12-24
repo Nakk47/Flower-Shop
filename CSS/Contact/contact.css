@@ -3,7 +3,7 @@
 {
     --darkgreen-color: #355F2E;
     --mintedgreen-color: #1FB57A;
-    --hover-color: #F4F9F4;
+    --hover-color: #13704b;
     --background-color: #FBFEFF;
 }
 
@@ -27,6 +27,12 @@ body
 
 
 /* Navigation */
+
+.red-text
+{
+    color: red;
+}
+
 a
 {
     text-decoration: none;
@@ -262,7 +268,7 @@ label, #phone-call
 
 .send-btn
 {
-    height: 2.5em;
+    height: 2em;
 }
 
 .send-btn input
@@ -277,6 +283,12 @@ label, #phone-call
     border: none;
     justify-self: start;
 }
+
+.send-btn input:hover
+{
+    background-color: var(--hover-color);
+}
+
 
 input, textarea
 {
@@ -392,6 +404,12 @@ input, textarea
 {
     text-decoration: none;
     color: white;
+}
+
+#bottom-nav a:hover
+{
+    color: var(--mintedgreen-color);
+    text-decoration: underline;
 }
 
 #bottom-nav
