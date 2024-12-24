@@ -133,7 +133,7 @@ nav li
 
  /* section1 */
 
-.header-aboutus {
+/* .header-aboutus {
     padding-top: 90px;
     padding-left: 40px;
     color: #000;
@@ -143,9 +143,12 @@ nav li
     font-weight: 700;
     line-height: normal;
     margin-bottom: 40px;
-}
+} */
+ .container {
+    padding-top: 136px;
+ }
 .left-box {
-    display: flex;
+    display: flex;  
     flex-direction: column;
     margin-top: 40px ;
     left: 8%;
@@ -211,10 +214,9 @@ nav li
 .left-box2 > img{
     position: relative;
     z-index: -2;
-    width: 36%;
+    width: 44%;
     left: 8%;
     top : 70px  ;
-    width: 36%;
     height: 65vh;
 }
 

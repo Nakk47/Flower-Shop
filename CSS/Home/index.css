@@ -53,6 +53,7 @@ a
     background-color: var(--background-color);
     position: fixed;
     border-bottom: 1.5px solid lightgray;
+    height: 68px;
 }
 
 
@@ -67,7 +68,7 @@ nav ul
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
-    height: 7vh;
+    height: 68px;
 }
 
 nav li
@@ -397,7 +398,7 @@ nav li
 
 #category-container {
     display: grid;
-    grid-template-columns: repeat(4, 22%);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2 , 29%);
     grid-gap: 40px ;
 }
@@ -413,22 +414,22 @@ nav li
 }
 
 #category1 > img {
-    width: 458px;
+    width: 540px;
     height: 200px;
 }
 
 #category2 > img {
-    width: 458px;
+    width: 540px;
     height: 200px;
 }
 
 #category3 > img {
-    width: 210px;
+    width: 250px;
     height: 440px;
 }
 
 #category4 > img {
-    width: 210px;
+    width: 250px;
     height: 440px;
 }
 
@@ -474,8 +475,13 @@ nav li
 
 .service {
     background-color: white;
-    width: 200px;
-    height: 300px;
+    width: 330px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #service-card-container {
@@ -483,6 +489,57 @@ nav li
     height: 100%;
     align-items: center;
     gap: 20px;
+}
+
+.service-img > img {
+    padding-top: 40px ;
+    width: 200px;
+}
+
+.service-header1 {
+    color: #418A78;
+    text-align: center;
+    font-family: Calistoga;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.service-description {
+    padding-top: 10px ;  
+    text-align: center ;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #0B442E;
+    font-family: Fredoka;
+    font-size: 18px;
+    font-style: normal; 
+    font-weight: 400;
+    line-height: normal;
+    height: 125px;
+
+}
+
+.sercice-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 60px;
+    background: #1FB57A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sercice-btn > p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 /* Bottom */
 

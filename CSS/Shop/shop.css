@@ -53,6 +53,7 @@ a
     background-color: var(--background-color);
     position: fixed;
     border-bottom: 1.5px solid lightgray;
+    height: 68px;
 }
 
 
@@ -67,7 +68,7 @@ nav ul
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
-    height: 7vh;
+    height: 68px;
 }
 
 nav li
@@ -131,3 +132,252 @@ nav li
     padding-top: 0.5em;
 }
 
+/* main */
+
+#main-container {
+    padding-top: 102px;
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em ;
+ }
+
+ .header-search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+
+.search-container
+{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 50px;
+    align-items: center;
+    
+}
+
+.search-container > input[type=text]
+{
+    border-style: none;
+    border-radius: 50px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.search-container > input[type=text]:focus {
+    outline:none;
+}
+
+ .search-img img
+ {
+    width: 100%;
+
+ }
+
+ .search-img
+ {
+    width: 15px;
+ }
+
+#search-img1 {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#search-img2 {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#filter {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    background: #EDEDED;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 10px;
+}
+
+.filter-left {
+    display: flex;
+    gap: 3%;
+}
+
+.filter-left > select {
+    height: 100px;
+}
+
+.filter-right {
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+#counter {
+    background-color: white;
+    width: 40px;
+    height: 40px ;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.filter-right > button{
+   width: 100px;
+}
+
+.price {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: auto;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none
+}
+#reset-filter {
+    background-color: white;
+    display:flex;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset-filter > img{
+    width: 30px;
+}
+
+.label-productcard {
+    padding-top: 40px;
+}
+/* product card */
+#product-container
+{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 30px;
+}
+
+.product
+{
+    height: 331px;
+    width: 210.96px;
+    padding: 1em;
+    border-radius: 10px;
+    border: 3px solid lightgray;
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.product-header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-header img
+{
+    width: 7.5%;
+}
+
+.product-label
+{
+    font-family: "Roboto", serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.rating-stars img
+{
+    width: 10%;
+}
+
+
+.main-product-img
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-product-img img
+{
+    width: 70%; 
+}
+
+.line-card {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #D1D1D1;
+    width: 100%;
+    height: 1px;
+}
+
+.product-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.cost {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#product-container2 {
+    display: flex;
+    grid-gap: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+#product-container2::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.product {
+    flex-shrink: 0;
+}
+
+#button-card-end {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5em;
+    padding-right:5em ;
+    align-items: center;
+}
+
+.end-button {
+    font-size: 15px;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background: #1FB57A;
+    color: white;
+    border: none;
+}
+
+.end-button:hover {
+    background: #167F55;
+}
+
+.numpage-shop {
+    font-size: 20px;
+}
