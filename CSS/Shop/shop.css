@@ -256,7 +256,7 @@ nav li
 #product-container
 {
     display: grid;
-    grid-template-columns: repeat(auto-fit , 230px);
+    grid-template-columns: repeat(auto-fit , 210px);
     grid-gap: 2em;
     padding-left: 6em;
     padding-right: 6em;
