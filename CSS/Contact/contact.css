@@ -3,7 +3,7 @@
 {
     --darkgreen-color: #355F2E;
     --mintedgreen-color: #1FB57A;
-    --hover-color: #13704b;
+    --hover-color: #F4F9F4;;
     --background-color: #FBFEFF;
 }
 
@@ -73,7 +73,7 @@ nav ul
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
-    height: 7vh;
+    height: 68px;
 }
 
 nav li
@@ -144,6 +144,10 @@ nav li
     padding-right: 10em;
     padding-bottom: 5em;
     background: url("../../Assets/Contact/Green\ Watercolor\ Hand\ Drawn\ Floral\ Background.svg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .main-header
@@ -286,7 +290,7 @@ label, #phone-call
 
 .send-btn input:hover
 {
-    background-color: var(--hover-color);
+    background-color: #13704b;;
 }
 
 
@@ -296,7 +300,7 @@ input, textarea
 }
 
 
-        /* Bottom */
+/* Bottom */
 
 #bottom-container
 {

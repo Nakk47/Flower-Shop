@@ -12,10 +12,12 @@
     
     <!-- Playfair Display Font -->
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Playball Font-->
     <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
-
+    <!-- Calistoga Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Playball&display=swap" rel="stylesheet">
+    <!-- Calistoga Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Fredoka:wght@300..700&family=Playball&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="header">
@@ -28,7 +30,7 @@
                 <li><a class="nav-option" id="home" href="./index.html">Home</a></li>
                 <li><a class="nav-option" href="../Shop/shop.html">Shop</a></li>
                 <li><a class="nav-option" href="../Category/category.html">Category</a></li>
-                <li><a class="nav-option" href="../Service/service.html">Service</a></li>
+                <!-- <li><a class="nav-option" href="../Service/service.html">Service</a></li> -->
                 <li><a class="nav-option" href="../About Us/aboutUs.html">About</a></li>
                 <li><a class="nav-option" href="../Contact/contact.html">Contact</a></li>
             </ul>
@@ -46,7 +48,7 @@
     </div>
 
     <!-- Section 1 -->
-    <div id="section-1">
+    <div id="section-1" class="section">
         <div class="left-container">
             <div class="header-container">
                 <div class="small-line"></div>
@@ -81,14 +83,14 @@
     </div>
 
     <!-- Section 2 -->
-    <div id="section-2">
+    <div id="section-2" class="section">
 
         <h1 class="section-header"><span class="green-font">Best Seller</span> Flower</h1>
 
         <div id="product-container">
             
             <!-- Product-1 -->
-            <div class="product" id="product-1">
+            <a href="#" class="product" id="product-1">
                 <div class="product-header">
                     <p>Flower</p>
                     <img src="../../Assets/Homepage/heart.svg" alt="heart-icon">
@@ -118,10 +120,10 @@
                     <p class="bottom-label">1 Bunch</p>
                 </div>
                 
-            </div>
+            </a>
             
             <!-- Product-2 -->
-            <div class="product" id="product-2">
+            <a href="#" class="product" id="product-2">
                 <div class="product-header">
                     <p>Flower</p>
                     <img class="product-heart-icon" src="../../Assets/Homepage/heart.svg" alt="heart-icon">
@@ -149,10 +151,10 @@
                     <p class="cost">5.00$</p>
                     <p class="bottom-label">1 Bunch</p>
                 </div>
-            </div>
+            </a>
 
             <!-- Product-3 -->
-            <div class="product" id="product-3">
+            <a href="#" class="product" id="product-3">
                 <div class="product-header">
                     <p>Flower</p>
                     <img class="product-heart-icon" src="../../Assets/Homepage/heart.svg" alt="heart-icon">
@@ -180,10 +182,10 @@
                     <p class="cost">5.00$</p>
                     <p class="bottom-label">1 Bunch</p>
                 </div>
-            </div>
+            </a>
 
             <!-- Product-4 -->
-            <div class="product" id="product-3">
+            <a href="#" class="product" id="product-3">
                 <div class="product-header">
                     <p>Flower</p>
                     <img class="product-heart-icon" src="../../Assets/Homepage/heart.svg" alt="heart-icon">
@@ -211,7 +213,7 @@
                     <p class="cost">5.00$</p>
                     <p class="bottom-label">1 Bunch</p>
                 </div>
-            </div>
+            </a>
         </div>
 
         <a class="view-more-container" href="../Shop/shop.html">
@@ -220,32 +222,32 @@
     </div>
 
     <!-- Section-3 -->
-    <div id="section-3">
+    <div id="section-3" class="section">
         <h1 class="section-header">Most Popular Category</h1>
         <div id="category-container">
             <div class="category" id="valentine">
-                <h2 class="service-header">Valentine</h2>
+                <h2 class="category-header">Valentine</h2>
                 <div class="category-img" id="category1">
                     <img src="../../Assets/Homepage/popular category/valentine.png"alt="valentine-img">
                 </div>
             </div>
 
             <div class="category" id="decoration">
-                <h2 class="service-header" id="text-decoration">Decoration</h2>
+                <h2 class="category-header" id="text-decoration">Decoration</h2>
                 <div class="category-img" id="category2">
                     <img src="../../Assets/Homepage/popular category/decoration.png" alt="decoration-img">
                 </div>
             </div>
 
             <div class="category" id="gift">
-                <h2 class="service-header" id="text-gift">Gift</h2>
+                <h2 class="category-header" id="text-gift">Gift</h2>
                 <div class="category-img" id="category3">
                     <img src="../../Assets/Homepage/popular category/gift.png" alt="gift-img">
                 </div>
             </div>
             
             <div class="category" id="wedding">
-                <h2 class="service-header">Wedding</h2>
+                <h2 class="category-header">Wedding</h2>
                 <div class="category-img" id="category4">
                     <img src="../../Assets/Homepage/popular category/wedding.png" alt="wedding-img">
                 </div>
@@ -254,8 +256,8 @@
     </div>
 
     <!-- Section-4 -->
-     <div id="section-4">
-        <div id="service container">
+    <div id="section-4" class="section">
+        <div id="service-container">
             <h1 class="section-header" id="our-service-header">Our Service</h1>
             <div id="service-card-container">
                 <div class="service" id="service-1">
@@ -292,59 +294,78 @@
                 </div>
             </div>
         </div>
-
+    </div>
+    
     <!-- Bottom -->
-        <div id="bottom-container">
-            <div id="left-section">
-                <img id="white-logo" src="" alt="">
+    <div id="bottom-container">
+        <div id="left-section">
+            <div id="white-logo">
+                <img src="../../Assets/BLOSSOM LOGO white.svg" alt="white-logo">
+            </div>
+
+            <div id="text-container">
                 <p>We are your online flowers destination. We offer a wide range of flowers from our heart to yours!</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact">
+                    <div class="contact-icon" id="phone-icon">
+                        <img src="../../Assets/Contact/Phone.svg" alt="phone-icon">
+                    </div>
+                    <p>+885 123-456-789<   /p>
+                </div>
                 
-                <div class="contact-icon" id="phone-icon">
-                    <img src="" alt="phone-icon">
+                <div class="contact">
+                    <div class="contact-icon" id="mail-icon">
+                        <img src="../../Assets/Contact/Email.svg" alt="mail-icon">
+                    </div>
+                    <a href="#" id="email">blossomtheflowershop@service.com</a>
                 </div>
-                <p>+885 123-456-789</p>
-                
-                <div class="contact-icon" id="mail-icon">
-                    <img src="" alt="mail-icon">
+    
+                <div class="contact">
+                    <div class="contact-icon" id="location-icon">
+                        <img src="../../Assets/Contact/Location.svg" alt="">
+                    </div>
+                    <a href="#" id="location">Location</a>
                 </div>
-                <a href="#" id="email">blossomtheflowershop@service.com</a>
-
-                <div class="contact-icon" id="location-icon">
-                    <img src="" alt="">
-                </div>
-                <a href="#" id="location">Location</a>
-
             </div>
 
-            <div id="mid-section">
-                <h2 id="media-header" >Social Media</h2>
-                <div id="social-media-container">
-                    <div class="social-media" id="facebook">
-                        <img src="" alt="facebook-icon">
-                    </div>
-
-                    <div class="social-media" id="telegram">
-                        <img src="" alt="telegram-icon">
-                    </div>
-
-                    <div class="social-media" id="instagram">
-                        <img src="" alt="instagram-icon">
-                    </div>
-                </div>
-            </div>
-            
-            <div id="lower-section">
-                <div id="term-privacy">
-                    <p>Terms & Condition</p>
-                    <p>Privacy Policy</p>
-                </div>
-
-                <div id="copyright">
-                    <p>&copy; Copytight, All rights reserved.</p>
-                </div>
-            </div>
         </div>
 
-</div>
+        <div id="mid-section">
+            <h2 id="media-header" >Social Media</h2>
+            <div id="social-media-container">
+                <a href="#" class="social-media" id="facebook">
+                    <img src="../../Assets/Contact/Facebook.svg" alt="facebook-icon">
+                </a>
+
+                <a href="#" class="social-media" id="telegram">
+                    <img src="../../Assets/Contact/Telegram.svg" alt="telegram-icon">
+                </a>
+
+                <a href="#" class="social-media" id="instagram">
+                    <img src="../../Assets/Contact/Instagram.svg" alt="instagram-icon">
+                </a>
+
+                <a href="#" class="social-media" id="x">
+                    <img src="../../Assets/Contact/x.svg" alt="instagram-icon">
+                </a>
+            </div>
+
+            <div id="bottom-nav">
+                <p><a href="../Home/index.html">Home</a>  |  <a href="../Shop/shop.html">Shop</a>  |  <a href="../Category/category.html">Category</a>  |  <a href="#">Service</a>  |  <a href="../About Us/aboutUs.html">About</a>  |  <a href="../Contact/contact.html">Contact</a></p>
+            </div>
+        </div>
+    </div>
+    <div id="lower-section">
+        <div id="term-privacy">
+            <a href="#">Terms & Conditions</a>
+            <a href="">Privacy Policy</a>
+        </div>
+
+        <div id="copyright">
+            <p>&copy; Copytight, All rights reserved.</p>
+        </div>
+    </div>
 </body>
 </html>
