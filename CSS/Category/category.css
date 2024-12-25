@@ -167,7 +167,7 @@ nav li
 .type-flowers
 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, 700px);
     gap: 1em;
     width: 100%;
 }
