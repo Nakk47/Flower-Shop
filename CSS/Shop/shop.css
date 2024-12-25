@@ -94,7 +94,7 @@ nav li
     display: flex;
     font-size: 20px;
     gap: 2em;
-    padding-right: 15vh;
+    padding-right: 5em;
 }
 
 #login-button
@@ -144,7 +144,7 @@ nav li
  .header-search {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
  }
 
 .search-container
@@ -249,8 +249,14 @@ nav li
     width: 30px;
 }
 
+.green-color
+{
+    color: var(--mintedgreen-color);
+}
+
 .label-productcard {
     padding-top: 40px;
+    font-family: "roboto", sans-serif;
 }
 /* product card */
 #product-container
@@ -289,7 +295,7 @@ nav li
 .product-label
 {
     font-family: "Roboto", serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 10%;
 }
@@ -331,7 +337,7 @@ nav li
 .cost {
     color: #000;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -363,6 +369,7 @@ nav li
     justify-content: space-between;
     padding-left: 5em;
     padding-right:5em ;
+    padding-bottom: 2em;
     align-items: center;
 }
 
