@@ -99,7 +99,7 @@ nav li
     display: flex;
     font-size: 20px;
     gap: 2em;
-    padding-right: 15vh;
+    padding-right: 5em;
 }
 
 #login-button
