@@ -82,6 +82,14 @@ nav li
     justify-content: space-evenly;
 }
 
+.menu-btn
+{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
 .nav-option
 {
     display: flex;
@@ -153,6 +161,7 @@ nav li
 #section-1 h1
 {
     font-size: 48px;
+    font-size: 100%;
 }
 
 .type-header
@@ -213,6 +222,7 @@ nav li
     width: 100%;
 }
 
+
 /* Bottom */
 
 #bottom-container
@@ -224,6 +234,16 @@ nav li
     padding: 2em;
     font-family: "roboto", sans-serif;
     grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    text-align: center;
+    min-height: 100px;
+}
+
+#bottom-container p
+{
+    color: white;
+    margin: 20px auto;
+
 }
 
 /* Left */
@@ -364,4 +384,34 @@ nav li
 {
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (max-width:850px){
+    .header
+    {
+        padding: 0;
+    }
+    .logo
+    {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .nav-option
+    {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        margin-top: -900px;
+    }
+
+    .nav-option li
+    {
+        margin: 30px auto;
+
+    }
+    
+    
 }
